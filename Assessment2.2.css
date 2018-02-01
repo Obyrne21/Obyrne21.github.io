@@ -1,0 +1,43 @@
+#FirstP     {
+    
+    color: red;
+    text-align: center;
+    border: 2px solid blue;
+    
+    
+}
+
+.SecondP    {
+    
+    color: white;
+    background-color: black;
+    text-align: left;
+    border: 2px solid red;
+    border-radius: 5px;
+    
+}
+
+#ThirdP     {
+    
+    color: #ffcc00;
+    
+    
+}
+
+
+a:link {
+    color:blue
+}
+
+a:visited {
+    color:green
+}
+
+a:hover {
+    color:orange
+}
+
+a:active {
+    color:limegreen
+}
+
