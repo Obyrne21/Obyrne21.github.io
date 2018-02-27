@@ -1,0 +1,39 @@
+<!doctype html>
+
+<!-- Assessment 3 -->
+
+
+
+
+<html>
+    <head>
+      
+	    <title>Assessment 3</title>
+	    
+    </head>
+    
+    <body>
+      
+      <p id="text"></p>
+      
+      <script>
+        
+        var password = prompt("Please enter in the password to proceed");
+        
+        var actual = "pass";
+        
+        while (password != actual) {
+          
+          password = prompt("Wrong. Please enter in the password to proceed");
+          
+        }
+       
+          txt = "Correct!  Welcome!";
+      
+        document.getElementById("text").innerHTML = txt;
+        
+      </script>
+      
+    </body>
+    
+</html>
