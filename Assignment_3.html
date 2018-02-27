@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+  
+<head>
+  
+  <title>Assignment 3!</title>
+  
+</head>
+
+  <body>
+  
+    <p id="text"></p>
+  
+  <script>
+  
+    var number = prompt("Please enter a number between 1 and 10");
+    
+    var actual = Math.floor(Math.random() * 10);
+    
+    while (number != actual) {
+        txt = "Wrong!!!  The Awnser was " + actual + "!!! Guess agian.";
+        number = prompt("Please enter a number between 1 and 10");
+        }
+        txt = "Correct!!!!  The Awnser was " + actual + "!!!";
+        
+        document.getElementById("text").innerHTML = txt;
+    
+  </script>
+    
+  </body>
+  
+</html>
