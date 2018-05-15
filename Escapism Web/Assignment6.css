@@ -1,0 +1,41 @@
+p {
+    
+width: 50%;
+
+}
+
+a {
+    
+text-decoration: none;    
+    
+}
+
+a:link {
+    
+color:blue;
+    
+}
+
+a:visited {
+    
+color:blueviolet
+    
+}
+
+a:hover {
+    
+color:orangered
+    
+}
+
+a:active {
+    
+color:limegreen
+    
+}
+
+h2 {
+    
+   font-family:"Comic Sans MS", cursive, sans-serif;
+    
+}
