@@ -1,0 +1,126 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 14px, 16px;
+    overflow: hidden;
+    background-color: #ff4204;
+}
+
+
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+li a:hover {
+    background-color: black;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Add a white back drop */
+body {
+    font-family: Arial;
+    padding: 20px;
+    /*background: white; */
+    background-image:  url("pexels-alex-andrews-816608.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    /* picture from background-image: https://www.pexels.com/photo/photo-of-deep-sky-object-816608/ */
+}
+
+
+
+/* Header/Title */
+.header {
+    padding: 80px;
+    font-size: 40px;
+    text-align: center;
+    background-image: url("bts-logo-extended-arms-header.png");
+    background-position: center;
+    /* background-size: 1400px 400px; */
+    color: Black;
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 50%;
+}
+
+
+
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 40%;
+    padding-left: 20px;
+}
+
+
+
+/* Add a card effect for articles */
+.card_right {
+     background-color: #ff4204;
+     padding: 20px;
+     margin-top: 20px;
+     color: white;
+}
+
+.card_left {
+     padding: 20px;
+     margin-top: 20px;
+     color: white;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-image: url("DSC_6976-opt.jpg");
+    background-size: 1400px 400px;
+    margin-top: 20px;
+}
+
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
