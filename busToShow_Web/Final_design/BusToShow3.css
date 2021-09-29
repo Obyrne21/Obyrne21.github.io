@@ -1,0 +1,139 @@
+@font-face {
+    font-family: airstrip;
+    src: url(airstrip.ttf)
+}
+
+ul {
+    list-style-type: none;
+    border-radius: 30px;
+    margin: 0 auto;
+    padding: 13px, 15px;
+    overflow: hidden;
+    background-color: #ff4204;
+    display: table;
+}
+
+
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-family: airstrip;
+}
+
+
+
+li a:hover {
+    background-color: black;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+/* Add a white back drop */
+body {
+    font-family: airstrip;
+    padding: 20px;
+    /*background: white; */
+    background-image:  url("pexels-alex-andrews-816608.jpg");
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    /* picture from background-image: https://www.pexels.com/photo/photo-of-deep-sky-object-816608/ */
+}
+
+
+
+/* Header/Title */
+.header {
+    padding: 80px;
+    font-size: 40px;
+    text-align: center;
+    background-image: url("bts-logo-extended-arms-header.png");
+    background-position: center;
+    /* background-size: 1400px 400px; */
+    color: Black;
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.column {   
+    width: 50%;
+}
+
+
+
+.card_center {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0.75;
+}
+
+.card_below_center {
+    margin: 0;
+    position: fixed;
+    bottom: 2%;
+    left: 2%;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Footer */
+.footer {
+    margin: 0;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    font-size: small;
+    margin-top: 20px;
+    font-family: airstrip;
+    bottom: -8%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    
+}
+
+#bus {
+    position: relative;
+    left: 0;
+    bottom: 0;
+  }
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+        width: 100%;
+        padding: 0;
+    }
+}
